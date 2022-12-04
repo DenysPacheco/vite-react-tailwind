@@ -1,7 +1,0 @@
-build
-coverage
-node_modules
-public
-.history
-dist/
-package.json
