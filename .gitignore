@@ -27,3 +27,6 @@ ideas
 *.todo
 headers.json
 dist/
+scripts/
+
+deploys.sh
