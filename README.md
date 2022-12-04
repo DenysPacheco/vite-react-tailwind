@@ -8,6 +8,8 @@ This is an example of a landing page using vite `("veet", /vit/)`, react, tailwi
 - [x] It is 📱 responsive.
 - [x] It has 🌚 dark mode.
 
+[Demo - GH Pages](https://denyspacheco.github.io/vite-react-tailwind/).
+
 ## 🔮 This project uses
 
 - ⚡ [Vite](https://vitejs.dev/)
@@ -27,9 +29,9 @@ This is an example of a landing page using vite `("veet", /vit/)`, react, tailwi
 
         git clone https://github.com/DenysPacheco/vite-react-tailwind.git
 
-    - or [degit](https://www.npmjs.com/package/degit)
+  - or [degit](https://www.npmjs.com/package/degit)
 
-            degit DenysPacheco/vite-react-tailwind
+          degit DenysPacheco/vite-react-tailwind
 
 - 🚪 Enter the directory
 
