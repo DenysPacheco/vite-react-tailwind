@@ -87,7 +87,7 @@ function App() {
         </div>
         <div className="relative">
           <svg
-            className="w-full absolute top-7 lg:top-12 stroke-[#00d9ff86]/30"
+            className="w-full absolute top-6 lg:top-12 stroke-[#00d9ff86]/30"
             width="612"
             height="26"
             viewBox="0 0 612 26"
@@ -103,7 +103,7 @@ function App() {
             />
           </svg>
         </div>
-        <h1 className="relative text-4xl lg:text-6xl w-max m-auto font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#bd34fe] via-[#00c6e9] to-[#38b2ac] text-ellipsis overflow-hidden">
+        <h1 className="relative text-center text-[8vw] md:text-4xl lg:text-6xl w-max m-auto font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#bd34fe] via-[#00c6e9] to-[#38b2ac] text-ellipsis overflow-hidden">
           Vite + React + Tailwind
         </h1>
       </header>
@@ -193,7 +193,7 @@ function App() {
                       <p className="lg:text-4xl lg:mt-4">Boom!</p>
                     </div>
                     <img
-                      className="absolute z-0 -top-12 left-14 w-80 lg:left-10 lg:right-0 lg:mx-auto lg:w-[40rem] lg:top-12"
+                      className="absolute z-0 -top-12 m-auto left-5 right-0 w-80 lg:left-10 lg:mx-auto lg:w-[40rem] lg:top-12 opacity-70"
                       src={spark}
                       alt="spark"
                       decoding="async"
@@ -245,7 +245,7 @@ function App() {
                       </p>
                     </div>
                     <img
-                      className="rounded-xl shadow-lg shadow-[#470bc3] mt-4 lg:w-[40rem]"
+                      className="rounded-xl shadow-lg shadow-[#470bc3]/60 mt-4 lg:w-[40rem]"
                       src={states}
                       alt="image code dark mode"
                       decoding="async"
@@ -264,7 +264,7 @@ function App() {
                       </p>
                     </div>
                     <img
-                      className="rounded-xl shadow-lg shadow-[#470bc3] mt-4 lg:w-[40rem]"
+                      className="rounded-xl shadow-lg shadow-[#470bc3]/60 mt-4 lg:w-[40rem]"
                       src={viewport}
                       alt="image code dark mode"
                       decoding="async"
@@ -435,7 +435,7 @@ function App() {
           <div className="relative -m-8 m-w-none mt-8 lg:mt-48">
             <figure>
               <img
-                className="w-full m-0"
+                className="w-full m-0 h-[24rem] lg:h-auto"
                 src={stackedWaves}
                 alt="circles"
                 decoding="async"
@@ -443,11 +443,11 @@ function App() {
                 loading="lazy"
               />
             </figure>
-            <div className="absolute top-0 py-8 lg:top-[30%] left-0 right-0 text-center">
+            <div className="absolute top-0 py-24 lg:py-8 lg:top-[30%] left-0 right-0 text-center">
               <div className="text-slate-100 font-mono text-xl lg:text-4xl">
                 <p>Buy now for a 120% discount.</p>
                 <p className="lg:text-2xl lg:mt-4">It's basically free!</p>
-                <ul className="mt-6 w-fit flex flex-col lg:gap-2 mx-auto text-left text-xs lg:text-base text-slate-100 font-varela">
+                <ul className="mt-4 w-fit flex flex-col lg:gap-2 mx-auto text-left text-xs lg:text-base text-slate-100 font-varela">
                   <li className="flex gap-2">
                     <CheckCircleIcon className="h-3 w-3 lg:h-6 lg:w-6 text-green-500" />
                     <p>This is not a joke.</p>
@@ -462,7 +462,7 @@ function App() {
                   </li>
                 </ul>
               </div>
-              <div className="flex gap-8 mt-4 lg:mt-8 items-center justify-center text-xs lg:text-base">
+              <div className="flex gap-8 mt-8 lg:mt-8 items-center justify-center text-xs lg:text-base">
                 <button className="border-none rounded-full bg-slate-200 p-3 hover:bg-slate-800 hover:text-slate-100">
                   Buy now!
                 </button>
