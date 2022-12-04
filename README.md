@@ -1,5 +1,7 @@
 # Vite, React and Tailwind 🎉
 
+![repo logo](/public/logo.png)
+
 This is an example of a landing page using vite `("veet", /vit/)`, react, tailwind and some svg's.
 
 - [x] It is 🌈 colored.
